@@ -23,11 +23,11 @@
   </head>
 
   <body>
-    <div class="container bg-light px-4">
+    <div class="container px-4">
       <!-- Header -->
       <div class="sticky-top bg-light">
         <header
-          class="d-flex flex-wrap justify-content-center py-3 border-bottom"
+          class="d-flex flex-wrap justify-content-center py-2 border-bottom"
         >
           <a
             href="/"
@@ -37,10 +37,10 @@
           </a>
 
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Experience</a>
+              <a href="#experience" class="nav-link">Experience</a>
             </li>
             <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
           </ul>
@@ -48,7 +48,7 @@
       </div>
 
       <!-- Legend -->
-      <div>
+      <div id="home" class="bg-light">
         <div class="d-flex justify-content-center align-items-center vh-100">
           <div class="px-4">
             <h1 class="display-5 fw-bold text-body-emphasis">
@@ -60,18 +60,18 @@
       </div>
 
       <!-- Skills -->
-      <div>
-        <h1 class="col-12">Skills</h1>
-        <div class="row py-2">
+      <div id="skils" class="bg-light border-bottom ">
+        <h1 class="mb-4">Skills</h1>
+        <div class="row py-2 p-0 m-0">
           <div class="col-4 fs-5 bg-secondary text-light">
             Programming Languages
           </div>
           <div class="col-1 text-center">=></div>
-          <div class="col-7 fs-5 bg-secondary text-light align-self-end">
+          <div class="col-7 fs-5 bg-secondary text-light">
             Javascript, Typescript, Python, HTML, CSS
           </div>
         </div>
-        <div class="row py-2">
+        <div class="row py-2 p-0 m-0">
           <div class="col-4 fs-5 bg-secondary text-light">
             Libraries & Frameworks
           </div>
@@ -81,14 +81,14 @@
             BullMQ, Jest
           </div>
         </div>
-        <div class="row py-2">
+        <div class="row py-2 p-0 m-0">
           <div class="col-4 fs-5 bg-secondary text-light">Databases</div>
           <div class="col-1 text-center">=></div>
           <div class="col-7 fs-5 bg-secondary text-light">
             MySQL, PostgreSQL, Redis, MongoDB
           </div>
         </div>
-        <div class="row py-2">
+        <div class="row py-2 p-0 m-0">
           <div class="col-4 fs-5 bg-secondary text-light">Cloud Providers</div>
           <div class="col-1 text-center">=></div>
           <div class="col-7 fs-5 bg-secondary text-light">
@@ -96,7 +96,7 @@
             DocumentDB)
           </div>
         </div>
-        <div class="row py-2">
+        <div class="row py-2 p-0 m-0">
           <div class="col-4 fs-5 bg-secondary text-light">
             Tools & Platforms
           </div>
@@ -105,7 +105,7 @@
             Git & GitHub, Microsoft Power Apps, Visual Studio Code, New Relic
           </div>
         </div>
-        <div class="row py-2">
+        <div class="row py-2 p-0 m-0">
           <div class="col-4 fs-5 bg-secondary text-light">
             Other Technologies
           </div>
@@ -113,6 +113,101 @@
           <div class="col-7 fs-5 bg-secondary text-light">
             REST API, GraphQL, KafkaJS, Docker, Linux, Bash, JWT, Microservices
           </div>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div class="mt-5 pt-3">
+        <h2 id="experience" class="h1 mb-3">Experience</h2>
+        <div>
+          <h1 class="h5 fw-bold text-body-emphasis">
+            Associate Consultant - Technology, Virtusa Pvt. Ltd. (Jan 2024 -
+            Present) <br />
+            Software Engineer, Virtusa Pvt. Ltd. (Jun 2023 - Dec 2023)
+          </h1>
+          <ul>
+            <li>
+              As a part of team Virtusa EAG team I have contributed development
+              of a low-code/no-code solution to automated Employee Rating
+              Normalization process in Virtusa.
+            </li>
+            <li>
+              Microsoft Power Platform was used to develop this solution. Canvas
+              Apps, Powerautomate, Dataverse and Oracle Fusion Applications (as
+              initial datasource) are used to develop this solution.
+            </li>
+            <li>
+              Developed, tested and delivered the solution adhearing to the
+              given time lines.
+            </li>
+            <li>
+              Participated requirement gathering and refining, planning and user
+              training workshops.
+            </li>
+            <li>
+              Ensured smooth collaboration across global teams, enabling
+              effective communication and client relationships.
+            </li>
+            <li>
+              Provided comprehensive project update to the Virtusa leadership,
+              including risks, assumptions, issues, and dependencies.
+            </li>
+            <li>
+              Conducted interviews to recruit new employees and team members.
+            </li>
+            <li>
+              Provided development support to other teams to meet timelines.
+            </li>
+            <li>
+              Conducted knowledge transfer sessions to train new team members on
+              the application.
+            </li>
+            <li>
+              Efficiently addressed production incidents by promptly providing
+              quick fixes and implementing practical workarounds
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="h5 fw-bold text-body-emphasis">
+            Software Engineer, Virtusa Pvt. Ltd. (Apr 2022 - May 2023), <br />
+            Associate Software Engineer, Virtusa Pvt. Ltd. (Jan 2021 - Mar 2022)
+          </h1>
+          <ul>
+            <li>
+              As a part of team Virtusa I have contributed development of a ERP
+              solution for client from apparel industry.
+            </li>
+            <li>
+              Developed and tested microservices using NestJS framework and
+              PostgreSQL database in combination with TypeORM.
+            </li>
+            <li>
+              Created and tested Kafka consumers using KafkaJS to capture CDC
+              events from master database.
+            </li>
+            <li>
+              Apollo GraphQL is used as query language and server-side runtime
+              for application programming interfaces (APIs) that gives API
+              clients exactly the data they requested and to enable and expose
+              CRUD operations to API clients.
+            </li>
+            <li>
+              Utilized New Relic to monitor logs of web applications and
+              infrastructure in real time.
+            </li>
+            <li>
+              Contributed developing web UIs using Angular framework and
+              Typescript.
+            </li>
+            <li>Implemented background jobs using BullMQ framework</li>
+            <li>Use Git command line as VCS and GitHub as hosting platform.</li>
+            <li>
+              Wrote test cases using Jest framework and ensured above 90% test
+              coverage.
+            </li>
+            <li>Helped other teams integrate Kafka consumer with NestJS.</li>
+          </ul>
         </div>
       </div>
     </div>
